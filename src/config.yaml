@@ -1,0 +1,10 @@
+# Registry credentials configuration
+registries:
+  - name: "${ORASHUB_REGISTRY}"
+    username: "${ORASHUB_REGISTRY_USERNAME}"
+    password: "${ORASHUB_REGISTRY_PASSWORD}"
+
+# Repository access policy
+allowed_repositories:
+  - "${ORASHUB_REGISTRY}/${ORASHUB_REGISTRY_NAMESPACE}/*"
+blocked_repositories: []
