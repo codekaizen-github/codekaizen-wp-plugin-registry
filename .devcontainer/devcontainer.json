@@ -14,8 +14,8 @@
         "--env-file",
         "./.env"
     ],
-    "workspaceFolder": "/usr/src/app",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/usr/src/app,type=bind,consistency=cached",
+    "workspaceFolder": "/codekaizen-wp-plugin-registry",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/codekaizen-wp-plugin-registry,type=bind,consistency=cached",
     "customizations": {
         "vscode": {
             "extensions": []
